@@ -4,8 +4,11 @@
 **OVERVIEW**: Create a class named RecursionManager that contains the following:
 
 **METHOD**: ```void triangleSum(int[] nums, int k)``` - this method will take as input a list of integers and calculate the sums for each window of size k starting from the end of the array and going to the front. It will store all the sums in an array, format a string of the array's contents using the ```printFormattedArray()``` method you will also write, and print the returned string from the ```printFormattedArray()``` method. This process will repeat again using the sum array as input for the next ```triangleSum()``` call, and repeat over again until an array of size < k is used as input for a triangleSum() call. Use recursion to write this method. **PLEASE READ THE EXAMPLE BELOW BEFORE CODING!!!**  
+
 **METHOD**: ```String printFormattedArray(int[] nums)``` - this method will take as input a list of integers and format a string that starts with an ```'_'```, contains an ```'_'``` between each number, and ends with an ```'_'```. For example an input array of ```{1, 2, 3}``` should result in a string that is ```"_1_2_3_"```.  
+
 **INSTANCE VARIABLE**: ```int k``` - this k will be used as the argument when calling ```triangleSum()```  
+
 **CONSTRUCTOR**: ```RecursionManager(int k)``` - this constructor will set the instance variable k to the parameter k's value.  
 Example:
 
