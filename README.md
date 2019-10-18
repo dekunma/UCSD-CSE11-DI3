@@ -30,16 +30,16 @@ Explanation of results:
 ```
 _11_9_7_5_3_ 
 ```
- Since input array is ```{1, 2, 3, 4, 5, 6}```, the sums of windows of size 2 going backwards is 6 + 5, 5 + 4, 4 + 3, 3 + 2, 2 + 1. This is 11, 9, 7, 5, 3. Pass these numbers as an integer array into printFormattedArray() to be formatted.
+ Since input array is ```{1, 2, 3, 4, 5, 6}```, the sums of windows of size 2 going backwards is 6 + 5, 5 + 4, 4 + 3, 3 + 2, 2 + 1. This is 11, 9, 7, 5, 3. Pass these numbers as an integer array into ```printFormattedArray()``` to be formatted.
 ```
 _8_12_16_20_
 ```
- Since input array is ```{11, 9, 7, 5, 3}```, the sums of windows of size 2 going backwards is 3 + 5, 5 + 7, 7 + 9, 9 + 11. This is 8, 12, 16, 20. Pass these numbers as an integer array into printFormattedArray() to be formatted.
+ Since input array is ```{11, 9, 7, 5, 3}```, the sums of windows of size 2 going backwards is 3 + 5, 5 + 7, 7 + 9, 9 + 11. This is 8, 12, 16, 20. Pass these numbers as an integer array into ```printFormattedArray()``` to be formatted.
 ```
 _36_28_20_
 ```
- Since input array is ```{8, 12, 16, 20}```, the sums of windows of size 2 going backwards is 20 + 16, 16 + 12, 12 + 8. This is 36, 28, 20. Pass these numbers as an integer array into printFormattedArray() to be formatted.
+ Since input array is ```{8, 12, 16, 20}```, the sums of windows of size 2 going backwards is 20 + 16, 16 + 12, 12 + 8. This is 36, 28, 20. Pass these numbers as an integer array into ```printFormattedArray()``` to be formatted.
 ```_48_64_```
- Since input array is ```{36, 28, 20}```, the sums of windows of size 2 going backwards is 20 + 28, 28 + 36. This is 48, 64. Pass these numbers as an integer array into printFormattedArray() to be formatted.
+ Since input array is ```{36, 28, 20}```, the sums of windows of size 2 going backwards is 20 + 28, 28 + 36. This is 48, 64. Pass these numbers as an integer array into ```printFormattedArray()``` to be formatted.
 ```_112_```
  Since input array is ```{48, 64}```, the sums of windows of size 2 going backwards is 64 + 48. This is 112. Pass these numbers as an integer array into ```printFormattedArray()``` to be formatted.
